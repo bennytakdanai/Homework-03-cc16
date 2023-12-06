@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4f99a24d21.js" crossorigin="anonymous"></script>
+    <title>Shopping-cart page</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="#" alt="logo">
+            <strong>Job</strong>Passcard
+        </div>
+        <nav>
+            <a href="">About Us</a>
+            <a href="">PASSCARD</a>
+            <a href="">PROFILE</a>
+        </nav>
+        <div class="rightnav">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <a href="">LOGIN</a>
+            <a href="">SIGN UP</a>
+        </div>   
+    </header>
+    <hr>
+    <h1>My Cart</h1>
+    <div class="container">
+        <!-- half left -->
+        <div class="stock">
+            <!-- docs box -->
+            <div class="docs">
+                <i class="fa-solid fa-trash-can"></i>
+                <div class="picbox1">
+                    <span class="material-icons">
+                            description
+                    </span>
+                    <p>Google Docs</p>
+                    <p>Used for business</p>
+                </div>
+                <div class="describtion">
+                    <p>Google Docs</p>
+                    <div class="selectbutton">
+                        <div class="dotlevel"></div>
+                        <div class="dotlevel"></div>
+                        <div class="dotlevel"></div>                      
+                        <select name="level" id="level">
+                            <option value="Lv1">lv1/3</option>
+                            <option value="Lv2">lv2/3</option>
+                            <option value="Lv3">lv3/3</option>
+                        </select>
+                    </div>
+                    <p>THB 150</p>
+                </div>
+            </div>
+
+            <!-- slides box -->
+            <div class="slides">
+                <i class="fa-solid fa-trash-can"></i>
+                <div class="picbox2">
+                    <span class="material-icons">
+                        inventory </span>
+                    <p>Google Slides</p>
+                    <p>Used for business</p>
+                </div>
+                <div class="describtion">
+                    <p>Google Slides</p>
+                    <div class="selectbutton">
+                        <div class="dotlevel"></div>
+                        <div class="dotlevel"></div>
+                        <div class="dotlevel"></div>                      
+                        <select name="level" id="level">
+                            <option value="Lv1">lv1/3</option>
+                            <option value="Lv2">lv2/3</option>
+                            <option value="Lv3">lv3/3</option>
+                        </select>
+                    </div>
+                    <p>THB 150</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- half right -->
+        <div class="order">
+            <p>Order Info</p>
+            <div class="subtotal">
+                <p>Subtotal</p>
+                <p>THB 300</p>
+            </div>
+            <div class="promocode">
+                <i class="fa-solid fa-ticket"></i>
+                <input type="text" placeholder="Promotion Code">
+                <button class="apply">Apply</button>
+            </div>
+            <div class="total">
+                <p>Total Payment</p>
+                <p>THB 300</p>
+            </div>
+            <button class="checkout">Log In To Check Out</button>
+        </div>
+    </div>
+</body>
+</html>
